@@ -1,0 +1,17 @@
+# OS-Lab-Assignment2-SystemSimulation
+
+## Description
+This repository simulates system startup by spawning multiple processes using Python's `multiprocessing` and logging each start/end to `process_log.txt`.
+
+## Files
+- `system_startup.py` : main script.
+- `process_log.txt` : sample log included.
+- `report.md` : short report.
+
+## Requirements
+- Python 3.6+
+- Works on Linux, macOS, and Windows (multiprocessing is cross-platform).
+
+## Usage
+Run:
+python3 system_startup.py --n 3 --sleep 2
