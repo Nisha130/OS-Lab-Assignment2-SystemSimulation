@@ -1,0 +1,15 @@
+# Report: System Startup, Process Creation and Termination Simulation
+
+## Objectives
+- Simulate a system-like startup sequence that spawns processes.
+- Use `multiprocessing` and `logging` to record process lifecycle.
+
+## Implementation
+- `system_startup.py` configures a logger to write timestamped messages to `process_log.txt`.
+- The script spawns N `Process` instances that run `system_process`, which logs start and end and sleeps to simulate work.
+- Parent waits (join) for all children, then exits.
+
+## Observations
+- Concurrent processes start almost simultaneously, log timestamps confirm concurrency.
+- Proper join ensures graceful termination.
+
