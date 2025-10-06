@@ -1,0 +1,8 @@
+2025-09-01 12:00:01 - Process-1 - Process-1 started
+2025-09-01 12:00:01 - Process-2 - Process-2 started
+2025-09-01 12:00:03 - Process-1 - Process-1 ended
+2025-09-01 12:00:03 - Process-2 - Process-2 ended
+2025-09-01 12:00:03 - MainProcess - Spawned Process-1 (PID 23456)
+2025-09-01 12:00:03 - MainProcess - Spawned Process-2 (PID 23457)
+2025-09-01 12:00:04 - MainProcess - Process-1 joined (PID 23456)
+2025-09-01 12:00:04 - MainProcess - Process-2 joined (PID 23457)
